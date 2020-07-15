@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "cya", "I am leaving", "Have a good day"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Bad to see you go.", "Good Bye"],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is shashank", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 16 years old!", "16 years young!", "I am a teen of sixteen"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Shashank.", "I'm Shashank!", "I'm Shashank Singh"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "Tell me something", "Can we hang out"],
+         "responses": ["Yep, we can hang out together", "I can talk to you as long as you wanna talk", "I bet, you would definetely like to eat buritos that I am gonna make"],
+         "context": [""]
+        },
+        {"tag": "hours",
+         "patterns": ["when are you open", "what are your hours", "hours of operation", "when you are available", "Are you busy"],
+         "responses": ["You can come to me anytime between 9am to 8pm."],
+         "context_set": ""
+        }
+   ]
+}
